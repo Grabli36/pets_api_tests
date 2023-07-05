@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39127e2b-6f64-4aad-a835-2c8a47f039b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/info/esoft/test/api/logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/configuration/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/ConstAllure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/HTTPStatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/api_path/v2/ConstPet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/FindPetsResponseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/PetFindDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/utils/PropertyHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/add/AddPetsPositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/find/FindPetsNegativeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/find/FindPetsPositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/section.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/custom-http-request.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/custom-http-response.ftl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2S3jTZw29NZ0kX1NdoefMbPeBOw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/mac/IdeaProjects/pets_api_tests/src/test/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources/tpl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/tpl" />
+      <recent name="$PROJECT_DIR$/src/test/java/info/esoft/test/api" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="info.esoft.test.api.constants" />
+      <recent name="info.esoft.test.api.helpers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AddPetsPositiveTest.findPetsTest">
+    <configuration name="AddPetsPositiveTest.findPetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets_api_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.esoft.test.api.v2.pet.add.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet.add" />
+      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.add.AddPetsPositiveTest" />
+      <option name="METHOD_NAME" value="findPetsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindPetsPositiveTest.findPetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets_api_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.esoft.test.api.v2.pet.find.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet.find" />
+      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.find.FindPetsPositiveTest" />
+      <option name="METHOD_NAME" value="findPetsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AddPetsPositiveTest.findPetsTest" />
+        <item itemvalue="JUnit.FindPetsPositiveTest.findPetsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39127e2b-6f64-4aad-a835-2c8a47f039b0" name="Changes" comment="" />
+      <created>1688382166484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688382166484</updated>
+    </task>
+    <servers />
+  </component>
+</project>
