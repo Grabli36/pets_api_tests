@@ -4,28 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39127e2b-6f64-4aad-a835-2c8a47f039b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/info/esoft/test/api/logger/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/configuration/Settings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/ConstAllure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/HTTPStatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/api_path/v2/ConstPet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/FindPetsResponseHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/PetFindDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/utils/PropertyHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/add/AddPetsPositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/find/FindPetsNegativeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/find/FindPetsPositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/section.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/custom-http-request.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/tpl/custom-http-response.ftl" afterDir="false" />
+    <list default="true" id="39127e2b-6f64-4aad-a835-2c8a47f039b0" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/dto/PetRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/dto/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/PetsPositiveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/v2/pet.schema/PetValid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/configuration/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/configuration/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/ConstAllure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/ConstAllure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/api_path/v2/ConstPet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/constants/api_path/v2/ConstPet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/FindPetsResponseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/PetsResponseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/PetFindDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/helpers/pet/dto/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/add/AddPetsPositiveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/find/FindPetsNegativeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/info/esoft/test/api/v2/pet/find/FindPetsPositiveTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/section.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/section.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,34 +66,81 @@
       <recent name="info.esoft.test.api.helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddPetsPositiveTest.findPetsTest">
+  <component name="RunManager" selected="JUnit.PetsPositiveTest.findPetTest">
     <configuration name="AddPetsPositiveTest.findPetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pets_api_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="info.esoft.test.api.v2.pet.add.*" />
+          <option name="PATTERN" value="info.esoft.test.api.v2.pet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet.add" />
-      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.add.AddPetsPositiveTest" />
+      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet" />
+      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.AddPetsPositiveTest" />
       <option name="METHOD_NAME" value="findPetsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindPetsPositiveTest.findPetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PetsPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pets_api_tests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="info.esoft.test.api.v2.pet.find.*" />
+          <option name="PATTERN" value="info.esoft.test.api.v2.pet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet.find" />
-      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.find.FindPetsPositiveTest" />
-      <option name="METHOD_NAME" value="findPetsTest" />
+      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet" />
+      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.PetsPositiveTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetsPositiveTest.addPetsTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets_api_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.esoft.test.api.v2.pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet" />
+      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.PetsPositiveTest" />
+      <option name="METHOD_NAME" value="addPetsTest(int,int,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetsPositiveTest.addPetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets_api_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.esoft.test.api.v2.pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet" />
+      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.PetsPositiveTest" />
+      <option name="METHOD_NAME" value="addPetsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetsPositiveTest.findPetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pets_api_tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="info.esoft.test.api.v2.pet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="info.esoft.test.api.v2.pet" />
+      <option name="MAIN_CLASS_NAME" value="info.esoft.test.api.v2.pet.PetsPositiveTest" />
+      <option name="METHOD_NAME" value="findPetTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,8 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PetsPositiveTest.findPetTest" />
+        <item itemvalue="JUnit.PetsPositiveTest.addPetsTest (1)" />
+        <item itemvalue="JUnit.PetsPositiveTest.addPetsTest" />
+        <item itemvalue="JUnit.PetsPositiveTest" />
         <item itemvalue="JUnit.AddPetsPositiveTest.findPetsTest" />
-        <item itemvalue="JUnit.FindPetsPositiveTest.findPetsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +165,29 @@
       <option name="presentableId" value="Default" />
       <updated>1688382166484</updated>
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1688546090005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688546090005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

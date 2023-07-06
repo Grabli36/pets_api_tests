@@ -1,4 +1,4 @@
-package info.esoft.test.api.helpers.pet;
+package info.esoft.test.api.helpers.pet.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -12,13 +12,10 @@ import lombok.extern.jackson.Jacksonized;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @SuperBuilder
 @Value
-public class PetFindDTO {
+public class Tag {
     @JsonProperty("id")
     Integer id;
 
     @JsonProperty("name")
     String name;
-
-    @JsonProperty("value")
-    Integer value;
 }

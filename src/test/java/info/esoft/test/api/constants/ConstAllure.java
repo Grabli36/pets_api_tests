@@ -4,8 +4,7 @@ public class ConstAllure {
 
     public static class Epic {
         public static final String
-                ADD_PETS  = "Добавить питомца",
-                FIND_PETS = "Поиск питомца";
+                PETS  = "Домашние питомцы";
     }
 
     public static class Feature {
@@ -16,8 +15,7 @@ public class ConstAllure {
 
     public static class Tag {
         public static final String
-                ADD_PETS_POSITIVE  = "AddPetsPositive",
-                FIND_PETS_POSITIVE = "FindPetsPositive";
+                PETS_POSITIVE  = "PetsPositive";
 
         public static final String
                 NEGATIVE = "negative",

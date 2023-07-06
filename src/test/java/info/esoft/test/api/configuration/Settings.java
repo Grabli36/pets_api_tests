@@ -19,7 +19,7 @@ import static info.esoft.test.api.logger.Logger.LOG4J_LOGGER;
 public class Settings {
     // API location
     private static String URL         = "https://petstore.swagger.io",
-                          BASE_PATH   = "/v2/pet/";
+                          BASE_PATH   = "/v2/";
 
     public static boolean isSectionUpdatingCommitted = false;
 
